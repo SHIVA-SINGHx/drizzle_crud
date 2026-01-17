@@ -4,7 +4,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-
     "dev": "node --env-file=.env --watch server.js",
     "start": "node --env-file=.env server.js",
     "db:generate": "drizzle-kit generate",
@@ -19,7 +18,8 @@
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.45.1",
     "express": "^5.2.1",
-    "pg": "^8.17.1"
+    "pg": "^8.17.1",
+    "postgres": "^3.4.8"
   },
   "devDependencies": {
     "@types/pg": "^8.16.0",
